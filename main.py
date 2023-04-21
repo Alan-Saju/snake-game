@@ -7,6 +7,11 @@ screen.bgcolor('black')
 screen.title('Snake Xperia')
 screen.tracer(0)
 Saji=Snake()
+screen.listen()
+screen.onkey(Saji.up,"Up")
+screen.onkey(Saji.down,"Down")
+screen.onkey(Saji.left,"Left")
+screen.onkey(Saji.right,"Right")
 
 
 
